@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Bucket">
+      <UniqueIdentifier>{9ce7997c-d343-4086-85b3-55322ad9f0c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bucket\Include">
+      <UniqueIdentifier>{273e6f23-b7b8-487f-a9a8-51a15f0dec02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bucket\Source">
+      <UniqueIdentifier>{0ce9e0a4-da22-4458-90be-3d065e9644a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Bucket\Include\BucketAlloc.h">
+      <Filter>Bucket\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Bucket\Include\BucketBuilder.h">
+      <Filter>Bucket\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Bucket\Include\VoroDiag.h">
+      <Filter>Bucket\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Bucket\Include\Cluster.h">
+      <Filter>Bucket\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Bucket\Source\BucketAlloc.cpp">
+      <Filter>Bucket\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Bucket\Source\BucketBuilder.cpp">
+      <Filter>Bucket\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Bucket\Source\VoroDiag.cpp">
+      <Filter>Bucket\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
